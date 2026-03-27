@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Clinical Peptides | High-Purity Research Compounds</title>
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clinical: {
+                            DEFAULT: '#0A6A50',
+                            hover: '#084f3c',
+                            light: '#F0FDF8', // emerald-50/70
+                            border: '#E2E8F0',
+                        }
+                    },
+                    fontFamily: {
+                        clinical: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-900 font-light">
+
+    <!-- Top Navigation -->
+    <header class="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur-md z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+            <!-- Logo Section -->
+            <div class="flex items-center space-x-3 group cursor-pointer">
+                <svg class="w-8 h-8 text-clinical transition-transform group-hover:scale-105" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                    <polyline points="4 6 12 2 20 6" />
+                    <line x1="12" y1="2" x2="12" y2="12" />
+                    <circle cx="12" cy="14" r="4" fill="currentColor" fill-opacity="0.1" />
+                </svg>
+                <div class="flex flex-col">
+                    <span class="text-sm tracking-[0.2em] font-medium text-clinical flex items-center gap-1.5 uppercase">Zenith</span>
+                    <span class="text-[10px] tracking-[0.3em] font-extralight text-gray-500 uppercase">Clinical Peptides</span>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-10">
+                <a href="#about" class="text-[13px] tracking-widest text-gray-600 hover:text-clinical uppercase font-extralight transition-colors duration-200">About Our Purity</a>
+                <a href="#catalog" class="text-[13px] tracking-widest text-gray-600 hover:text-clinical uppercase font-extralight transition-colors duration-200">Product Catalog</a>
+                <a href="#payment" class="text-[13px] tracking-widest text-gray-600 hover:text-clinical uppercase font-extralight transition-colors duration-200">Payment Methods</a>
+                <a href="#lab-reports" class="text-[13px] tracking-widest text-gray-600 hover:text-clinical uppercase font-extralight transition-colors duration-200">Lab Reports</a>
+            </nav>
+
+            <!-- Action Button -->
+            <div class="flex items-center space-x-4">
+                <button class="border border-clinical/30 hover:border-clinical text-clinical text-xs tracking-widest font-extralight px-5 py-2.5 uppercase transition-all duration-300">
+                    Client Portal
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden min-h-[calc(100vh-5rem)] flex items-center bg-white border-b border-gray-100 py-12">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <!-- Text Column -->
+            <div class="space-y-8">
+                <!-- Social Proof Badge -->
+                <div class="inline-flex items-center space-x-2 bg-clinical-light border border-clinical/10 px-4 py-1.5 rounded-none">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-clinical opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-clinical"></span>
+                    </span>
+                    <span class="text-[11px] font-extralight tracking-widest text-clinical uppercase">
+                        Trusted by 12,000+ Research Facilities and Medical Professionals
+                    </span>
+                </div>
+
+                <h1 class="text-5xl lg:text-6xl font-extralight tracking-tight leading-[1.1] text-gray-900">
+                    Uncompromising Purity. <br/>
+                    <span class="font-normal text-clinical">Defined Research.</span>
+                </h1>
+
+                <p class="text-base text-gray-600 font-extralight max-w-lg leading-relaxed">
+                    USA Synthesized Peptides. Guaranteed 99%+ Purity stability through rigorous HPLC & Mass Spectrometry batch certification and continuous multi-stage laboratory validation.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="#catalog" class="inline-flex justify-center bg-clinical hover:bg-clinical-hover text-white text-sm tracking-widest font-light px-8 py-4 uppercase transition-all duration-300 text-center">
+                        Shop Catalog
+                    </a>
+                    <a href="#lab-reports" class="inline-flex justify-center border border-gray-300 hover:border-clinical text-gray-700 hover:text-clinical text-sm tracking-widest font-light px-8 py-4 uppercase transition-all duration-300 text-center">
+                        View Certification Data
+                    </a>
+                </div>
+            </div>
+
+            <!-- Visual Column -->
+            <div class="relative flex items-center justify-center">
+                <!-- Abstract Gradient Backing -->
+                <div class="absolute inset-0 bg-transparent flex items-center justify-center">
+                    <div class="w-[450px] h-[450px] bg-clinical/15 rounded-full filter blur-3xl opacity-80"></div>
+                </div>
+                <!-- Main image container -->
+                <div class="relative z-10 w-full max-w-lg mx-auto flex items-center justify-center">
+                    <img src="assets/vials_3-removebg-preview.png" class="h-[440px] md:h-[500px] w-auto object-contain drop-shadow-md hover:scale-105 transition-all duration-500" alt="High-Purity Peptide Vials">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Clinical Standard Section -->
+    <section class="py-16 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:divide-x divide-gray-100">
+                <!-- Feature 1 -->
+                <div class="flex flex-col items-center px-4">
+                    <div class="w-12 h-12 bg-clinical-light flex items-center justify-center text-clinical mb-5">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-base tracking-widest font-light text-gray-900 uppercase">USA Made Facility</h3>
+                    <p class="text-sm text-gray-500 font-extralight mt-2 max-w-xs leading-relaxed">Synthesized and packaged in ISO-certified domestic laboratories with full QC trace.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="flex flex-col items-center px-4">
+                    <div class="w-12 h-12 bg-clinical-light flex items-center justify-center text-clinical mb-5">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-base tracking-widest font-light text-gray-900 uppercase">HPLC & MS Testing</h3>
+                    <p class="text-sm text-gray-500 font-extralight mt-2 max-w-xs leading-relaxed">High Performance Liquid Chromatography verified batch purity analytics available.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="flex flex-col items-center px-4">
+                    <div class="w-12 h-12 bg-clinical-light flex items-center justify-center text-clinical mb-5">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />
+                            <polyline points="13 2 13 9 20 9" />
+                        </svg>
+                    </div>
+                    <h3 class="text-base tracking-widest font-light text-gray-900 uppercase">Cold-Chain Logistics</h3>
+                    <p class="text-sm text-gray-500 font-extralight mt-2 max-w-xs leading-relaxed">Temperature-controlled climate transit ensures molecule structural integrity in transit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section id="catalog" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs uppercase tracking-[0.2em] font-medium text-clinical">Research Catalog</span>
+                <h2 class="text-3xl lg:text-4xl font-extralight tracking-tight text-gray-900 mt-2">Laboratory Grade Peptides</h2>
+                <p class="text-gray-500 font-extralight mt-3">All batches are verified at 99.8%+ threshold purity, lyophilized for maximum durability.</p>
+            </div>
+
+            <!-- Product Grid -->
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <!-- Dynamically Inserted Products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 border-t border-gray-100 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <!-- Image Column -->
+            <div class="relative flex items-center justify-center">
+                <div class="absolute w-[400px] h-[400px] bg-clinical/5 rounded-full filter blur-2xl z-0"></div>
+                <!-- Backed Frame -->
+                <div class="relative z-10 border border-gray-100 p-6 bg-white/50 backdrop-blur-sm -rotate-2 hover:rotate-0 transition-all duration-500 shadow-sm">
+                    <img src="assets/about_scientist.png" class="h-96 w-auto object-cover filter brightness-100 opacity-95" alt="Scientist Testing Compound">
+                </div>
+            </div>
+            <!-- Text Column -->
+            <div class="space-y-6">
+                <span class="text-xs uppercase tracking-[0.2em] font-medium text-clinical">Our Laboratory</span>
+                <h2 class="text-3xl lg:text-4xl font-extralight tracking-tight text-gray-900 mt-2 leading-tight">Elite domestic synthesis, driven by scientific precision.</h2>
+                <div class="space-y-4 text-base text-gray-600 font-extralight leading-relaxed">
+                    <p>
+                        Based strictly within the USA, Zenith Clinical Peptides is staffed by advanced biochemists dedicated to maintaining absolute molecular integrity. Our state-of-the-art laboratory features climate trace environmental nodes, ensuring every sample undergoes thorough analysis before distribution.
+                    </p>
+                    <p>
+                        By removing intermediate processors, avoid purity bleed. We facilitate direct chain logistics, maintaining rigid control over climate transitions giving you valid data endpoints.
+                    </p>
+                </div>
+                <div class="flex items-center space-x-6 pt-4">
+                    <div>
+                        <span class="text-3xl font-light text-clinical">99.8%</span>
+                        <p class="text-[11px] text-slate-500 tracking-wider font-extralight uppercase mt-1">Average Purity</p>
+                    </div>
+                    <div class="h-10 border-r border-gray-100"></div>
+                    <div>
+                        <span class="text-3xl font-light text-clinical">ISO-9</span>
+                        <p class="text-[11px] text-slate-500 tracking-wider font-extralight uppercase mt-1">Lab Standard</p>
+                    </div>
+                    <div class="h-10 border-r border-gray-200"></div>
+                    <div>
+                        <span class="text-3xl font-light text-clinical">100%</span>
+                        <p class="text-[11px] text-slate-500 tracking-wider font-extralight uppercase mt-1">US Formulated</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scientific Rigor Section -->
+    <section id="lab-reports" class="py-20 border-t border-gray-100 bg-clinical-light/30">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <!-- Left Grid -->
+            <div>
+                <span class="text-xs uppercase tracking-[0.2em] font-medium text-clinical">Data Verification</span>
+                <h2 class="text-3xl lg:text-4xl font-extralight tracking-tight text-gray-900 mt-2 mb-6 leading-tight">Certificate of Analysis & MS Testing</h2>
+                <div class="space-y-6 text-gray-600 font-extralight leading-relaxed text-sm">
+                    <p>At Zenith, transparency is synonymous with validity. Every batch of synthesis is subjected to third-party High-Performance Liquid Chromatography (HPLC) for compound purity measurement and Mass Spectrometry (MS) to verify molecular weight identities.</p>
+                    <p>We provide full documentation containing complete chromatogram layouts, theoretical vs observed molecular masses, and rigorous stability validation thresholds.</p>
+                </div>
+                <!-- Mini visual list -->
+                <div class="mt-8 space-y-3">
+                    <div class="flex items-center space-x-2 text-sm text-gray-700 font-light">
+                        <svg class="w-4 h-4 text-clinical" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 8" /></svg>
+                        <span>Peak Area Integration Purity Data</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-sm text-gray-700 font-light">
+                        <svg class="w-4 h-4 text-clinical" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 8" /></svg>
+                        <span>Molecular Weight Analysis Verification</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-sm text-gray-700 font-light">
+                        <svg class="w-4 h-4 text-clinical" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 8" /></svg>
+                        <span>Lyophilization Cycle Stability Check</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Grid (Download Mockups) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Sample 1 -->
+                <div class="border border-clinical/10 bg-white p-6 shadow-sm hover:border-clinical transition-all cursor-pointer group">
+                    <h4 class="text-xs font-semibold text-clinical uppercase tracking-wider">Sample HPLC Report</h4>
+                    <p class="text-2xl font-extralight text-gray-900 mt-2">BPC-157 5mg</p>
+                    <p class="text-xs text-gray-500 mt-1 font-extralight">Item #ZCP-BPC157 | 99.82%</p>
+                    <div class="border-t border-gray-100 my-4"></div>
+                    <span class="inline-flex items-center text-xs text-gray-600 font-light group-hover:text-clinical transition-colors">
+                        Download PDF report
+                        <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                    </span>
+                </div>
+
+                <!-- Sample 2 -->
+                <div class="border border-clinical/10 bg-white p-6 shadow-sm hover:border-clinical transition-all cursor-pointer group">
+                    <h4 class="text-xs font-semibold text-clinical uppercase tracking-wider">Sample MS Spectrum</h4>
+                    <p class="text-2xl font-extralight text-gray-900 mt-2">TB-500 2mg</p>
+                    <p class="text-xs text-gray-500 mt-1 font-extralight">Item #ZCP-TB500 | 99.85%</p>
+                    <div class="border-t border-gray-100 my-4"></div>
+                    <span class="inline-flex items-center text-xs text-gray-600 font-light group-hover:text-clinical transition-colors">
+                        Download PDF report
+                        <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 border-t border-gray-100 bg-white">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="text-xs uppercase tracking-[0.2em] font-medium text-clinical">FAQ Guide</span>
+                <h2 class="text-2xl lg:text-3xl font-extralight tracking-tight text-gray-900 mt-2">Frequently Asked Questions</h2>
+            </div>
+            <div class="space-y-4 divide-y divide-gray-100">
+                <details class="group py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center text-sm font-light text-gray-900 group-open:text-clinical transition-colors">
+                        <span>Are items shipped temperature controlled?</span>
+                        <svg class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+                    </summary>
+                    <p class="text-xs text-gray-500 font-extralight mt-3 leading-relaxed">Yes, all peptides are packaged using advanced climate transit cold-packs to preserve exact molecular structural integrity for the absolute longest intervals possible during shipping cycles.</p>
+                </details>
+                <details class="group py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center text-sm font-light text-gray-900 group-open:text-clinical transition-colors">
+                        <span>What guarantees 99.8% Purity thresholds?</span>
+                        <svg class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+                    </summary>
+                    <p class="text-xs text-gray-500 font-extralight mt-3 leading-relaxed">Our compounds must pass independent third-party High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry certification loops before they are qualified for user shipment releases.</p>
+                </details>
+                <details class="group py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center text-sm font-light text-gray-900 group-open:text-clinical transition-colors">
+                        <span>Are these safe for direct biological consumption?</span>
+                        <svg class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+                    </summary>
+                    <p class="text-xs text-gray-500 font-extralight mt-3 leading-relaxed">Absolutely NOT. Our complete inventory comprises strict non-human valid reagents intended exclusively for independent validation verification research only.</p>
+                </details>
+                <details class="group py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center text-sm font-light text-gray-900 group-open:text-clinical transition-colors">
+                        <span>How are items billed and delivered?</span>
+                        <svg class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+                    </summary>
+                    <p class="text-xs text-gray-500 font-extralight mt-3 leading-relaxed">Checkout methods feature absolute trace encryptions via Authorize.net standard visa gates or BTC setups. Shipping occurs immediately within 24-48 hours domestic window speeds holding clinical weights.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Critical Legal & FDA Compliance Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="border-2 border-slate-900 p-8 md:p-12 text-center bg-slate-50/50">
+                <span class="text-xs uppercase tracking-[0.3em] font-semibold text-red-700 bg-red-50 px-3 py-1 inline-block mb-3">Notice of Liability</span>
+                <h2 class="text-2xl font-normal tracking-wide text-slate-900 mb-4">FOR LABORATORY RESEARCH USE ONLY.</h2>
+                <p class="text-sm font-light text-slate-700 leading-relaxed max-w-2xl mx-auto">
+                    <span class="font-medium text-slate-900">ATTENTION:</span> All compounds, biologicals, and items listed on this portal are exclusively designated for <span class="font-medium text-slate-900">LABORATORY RESEARCH USE ONLY.</span> Products are not declared nor intended for human consumption, therapeutic use, or direct medical use inside clinical practitioners' parameters. FDA compliance and regulations regarding non-certified research chemicals are strictly enforced and legally binding. No guidelines are provided for clinical dosage.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800 text-sm font-extralight">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <!-- Col 1: Brand Info -->
+            <div class="md:col-span-1">
+                <div class="flex items-center space-x-2 text-white mb-4">
+                    <svg class="w-6 h-6 text-clinical" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                        <polyline points="4 6 12 2 20 6" />
+                        <line x1="12" y1="2" x2="12" y2="12" />
+                    </svg>
+                    <span class="text-sm tracking-[0.1em] font-medium uppercase text-white">Zenith</span>
+                </div>
+                <p class="leading-relaxed">USA Synthesized peptides conforming to rigorous batch-stability thresholds and pharmaceutical research grades.</p>
+            </div>
+
+            <!-- Col 2: Legal Nav -->
+            <div>
+                <h3 class="text-xs tracking-widest uppercase font-semibold text-white mb-4">Legal Framework</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Research Use Disclaimer</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Refund Protocol</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Contact Info -->
+            <div>
+                <h3 class="text-xs tracking-widest uppercase font-semibold text-white mb-4">US Contact Info</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 5h18M3 19h18M3 12h18" stroke-width="1.5"/></svg>
+                        <span>800-ZENITH-PEPTIDE</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M16 12l-4-4m0 0l-4 4m4-4v12" stroke-width="1.5"/></svg>
+                        <span>support@zenithclinical.com</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-width="1.5"/></svg>
+                        <span>Houston Tech Park, TX, USA</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Payments -->
+            <div>
+                <h3 class="text-xs tracking-widest uppercase font-semibold text-white mb-4">Payment Methods</h3>
+                <div class="flex flex-wrap gap-3">
+                    <!-- Visa/MC -->
+                    <div class="border border-slate-700 bg-slate-800/50 px-3 py-1.5 flex items-center justify-center text-[10px] tracking-wider uppercase font-semibold text-slate-300">
+                        Visa / MC
+                    </div>
+                    <!-- Bitcoin -->
+                    <div class="border border-slate-700 bg-slate-800/50 px-3 py-1.5 flex items-center justify-center text-[10px] tracking-wider uppercase font-semibold text-slate-300">
+                        Bitcoin / Crypto
+                    </div>
+                    <!-- Auth.net -->
+                    <div class="border border-slate-700 bg-slate-800/50 px-3 py-1.5 flex items-center justify-center text-[10px] tracking-wider uppercase font-semibold text-slate-300">
+                        Authorize.net
+                    </div>
+                </div>
+                <!-- Agency Copyright -->
+                <div class="border-t border-slate-800 mt-6 pt-4 flex items-center gap-1">
+                    <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+                    <p class="text-[10px] text-slate-600">Powered by <a href="#" class="hover:text-slate-400">PixelPulse WP</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Product Grid Injection -->
+    <script>
+        const products = [
+            { name: "BPC-157", dose: "5mg", price: "$65.00", batch: "99.82%", code: "BPC157" },
+            { name: "TB-500", dose: "2mg", price: "$55.00", batch: "99.85%", code: "TB500" },
+            { name: "CJC-1295 / DAC", dose: "2mg", price: "$58.00", batch: "99.81%", code: "CJC1295" },
+            { name: "Ipamorelin", dose: "5mg", price: "$60.00", batch: "99.88%", code: "IPAM" },
+            { name: "Tirzepatide", dose: "10mg", price: "$190.00", batch: "99.91%", code: "TIRZ" },
+            { name: "Semaglutide", dose: "5mg", price: "$145.00", batch: "99.87%", code: "SEMA" },
+            { name: "MOTS-C", dose: "5mg", price: "$110.00", batch: "99.84%", code: "MOTS" },
+            { name: "AOD-9604", dose: "2mg", price: "$90.00", batch: "99.89%", code: "AOD" },
+            { name: "Melanotan II", dose: "10mg", price: "$60.00", batch: "99.86%", code: "MEL2" },
+            { name: "GHK-Cu", dose: "100mg", price: "$220.00", batch: "99.83%", code: "GHKCU" }
+        ];
+
+        const grid = document.getElementById('product-grid');
+        grid.innerHTML = products.map(p => `
+            <div id="product-${p.code}" class="bg-white border border-gray-100 rounded-none p-5 text-center hover:border-clinical/30 transition-all duration-300 group hover:shadow-sm relative flex flex-col justify-between">
+                <div class="h-44 flex items-center justify-center mb-4 bg-gray-50/70 p-4 relative">
+                    <img src="assets/vial.png" class="h-28 object-contain group-hover:scale-105 transition-all duration-300 z-10" alt="${p.name} Vial">
+                    <div class="absolute inset-x-0 bottom-0 h-1/4 bg-white/40 backdrop-blur-sm z-0"></div>
+                </div>
+                <div>
+                    <span class="text-[9px] uppercase tracking-widest text-clinical font-semibold bg-clinical-light px-2 py-0.5 inline-block">Batch ${p.batch} purity</span>
+                    <h3 class="text-base font-normal text-gray-900 mt-2">${p.name}</h3>
+                    <p class="text-[10px] text-gray-500 font-extralight mt-0.5 tracking-wider uppercase">RESEARCH COMPOUND · ${p.dose}</p>
+                    <div class="mt-3 text-lg font-light text-gray-900">${p.price}</div>
+                    
+                    <div class="mt-5 flex flex-col gap-2">
+                        <button class="w-full bg-clinical hover:bg-clinical-hover text-white text-[10px] py-2.5 uppercase tracking-wider font-light transition-all rounded-none hover:tracking-widest">
+                            Add to Cart
+                        </button>
+                        <button class="w-full border border-gray-200 hover:border-clinical/40 text-gray-600 hover:text-clinical text-[10px] py-2 uppercase tracking-wider font-light transition-all rounded-none">
+                            View COA
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    </script>
+
+</body>
+</html>
